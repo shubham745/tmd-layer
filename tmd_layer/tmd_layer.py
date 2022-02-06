@@ -22,8 +22,7 @@ class TMDLayer(nn.Module):
     
 
     def TMD_map(self, x):
-        # input x if of size [B, d, N]
-        print(x.shape)
+        # input x if of size [B, N, d]
         x = self.proj(x)
         # L = construct from pe
 
