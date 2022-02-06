@@ -7,7 +7,7 @@ Implementation of TMD Layer, from the paper <a href="https://openaccess.thecvf.c
 ## Install
 
 ```bash
-$ pip install tmd_layer
+$ pip install tmd-layer
 ```
 
 ## Usage
@@ -32,15 +32,23 @@ tmd_layer = TMDLayer(
     epsilon = 0.25       # epsilon(hyperparameter)
 )
 
+
+x = torch.randn(1, 100, 28*28) # [b,n,d] 
+
+x = tmd_layer(x)
+
 ```
 
-This implementation uses the following implementation of pi(target) function
+
+This repo uses the following implementation of pi(target) function
 
 ```python
-nn.Sequential(nn.Linear(L_latent, in_features), 
+nn.Sequential(
+    nn.Linear(L_latent, in_features), 
     nn.ReLU(),
     nn.Linear(in_features, 1),
-    nn.Sigmoid())
+    nn.Sigmoid()
+)
 ```
 
 

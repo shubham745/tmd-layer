@@ -8,7 +8,7 @@ setup(
   description = 'TMD Layer',
   author = 'Shubham Agarwal',
   author_email = 'shubham745@gmail.com',
-  url = 'https://github.com/shubham745/tmd_layer',
+  url = 'https://github.com/shubham745/tmd-layer',
   keywords = [
     'artificial intelligence',
     'Stochastic Differential Equation',
