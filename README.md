@@ -14,9 +14,10 @@ $ pip install tmd-layer
 
 This layer expects a tensor in the shape [b,n,d]
 
-b - batch size (can be set to default one), used for parallel 
-n - number of samples in one batch
-d - dimension of input
+b - batch size (can be set to default one) <br/>
+n - number of samples in one batch <br/>
+d - dimension of input <br/>
+
 
 <a href="https://github.com/zihangm/neural-tmd-layer">Look here for some implementations</a>
 
