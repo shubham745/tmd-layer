@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
   name = 'tmd-layer',
   packages = find_packages(),
-  version = '0.0.1',
+  version = '0.0.2',
   license='MIT',
   description = 'TMD Layer',
   author = 'Shubham Agarwal',
@@ -15,7 +15,7 @@ setup(
     'attention mechanism'
   ],
   install_requires=[
-    'torch>=1.6'
+    'torch>=1.4'
   ],
   classifiers=[
     'Development Status :: 4 - Beta',
